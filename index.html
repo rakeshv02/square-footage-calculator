@@ -7,7 +7,6 @@
 <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
   <title>Square Footage Calculator — Free Online | Tabutility</title>
   <meta name="description" content="Calculate the square footage of rooms and spaces. Add multiple areas and get the running total.">
   <meta name="robots" content="index, follow"/>
@@ -21,30 +20,31 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://tabutility.com/og-blog.png">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
-  <meta name="theme-color" content="#f8f7f4">
+  <meta name="theme-color" content="#0f172a">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Square Footage Calculator","url":"https://square-footage-calculator.tabutility.com/","description":"Calculate the square footage of rooms and spaces. Add multiple areas and get the running total.","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"provider":{"@type":"Organization","name":"Tabutility","url":"https://tabutility.com"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Tabutility","item":"https://tabutility.com"},{"@type":"ListItem","position":2,"name":"Square Footage Calculator","item":"https://square-footage-calculator.tabutility.com/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I calculate square footage?","acceptedAnswer":{"@type":"Answer","text":"Multiply the length by the width of a rectangular space. For example, a 12ft × 10ft room is 120 sq ft."}},{"@type":"Question","name":"What is square footage used for?","acceptedAnswer":{"@type":"Answer","text":"Square footage is used for flooring, painting, real estate listings, heating/cooling calculations and building permits."}},{"@type":"Question","name":"How many square feet in a square metre?","acceptedAnswer":{"@type":"Answer","text":"1 square metre = 10.764 square feet. 1 square foot = 0.0929 square metres."}}]}</script>
   <script>window.addEventListener('load',function(){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-78VZWJ5B1W';document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('js',new Date());gtag('config','G-78VZWJ5B1W');});</script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7039091592734005" crossorigin="anonymous"></script>
-<style id="tabutility-brand">
-/* empty ad slots: reserve space, no bordered box */
-.ad-banner,.ad-slot,.ad-container{background:transparent!important;border:none!important;border-bottom:none!important;box-shadow:none!important}
+<style id="tabutility-brand-v2">
+/* Canonical dark-surface spec (STYLE.md): indigo accent, white text on indigo */
+.btn,.toggle-btn.active,button.active{color:#fff!important}
+nav .brand{color:#fff}
+nav a:hover{color:#818cf8}
+input:focus,select:focus,textarea:focus{border-color:#818cf8!important}
 /* AdSense not yet approved: hide all ad frames (container min-height still reserves space). Remove these two lines after approval. */
 ins.adsbygoogle,.ad-banner iframe,.ad-slot iframe,.ad-container iframe{visibility:hidden!important}
-nav .brand{color:#0f172a}
-body{-webkit-font-smoothing:antialiased}
 </style>
 </head>
-<body style="margin:0;font-family:'Segoe UI',Arial,sans-serif;background:#f8f7f4;color:#0f172a;min-height:100vh">
-<nav style="background:#ffffff;padding:11px 20px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e2e8f0"><a href="https://tabutility.com" style="color:#fff;font-weight:800;font-size:16px;text-decoration:none">⚡ Tabutility</a><a href="https://tabutility.com/blog/" style="color:#a5b4fc;font-size:13px;font-weight:700;text-decoration:none">📖 Blog</a></nav>
+<body style="margin:0;font-family:'Segoe UI',Arial,sans-serif;background:#0f172a;color:#f1f5f9;min-height:100vh">
+<nav style="background:#1e293b;padding:11px 20px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #334155"><a href="https://tabutility.com" style="color:#fff;font-weight:800;font-size:16px;text-decoration:none">⚡ Tabutility</a><a href="https://tabutility.com/blog/" style="color:#a5b4fc;font-size:13px;font-weight:700;text-decoration:none">📖 Blog</a></nav>
 <div style="max-width:640px;margin:12px auto;padding:0 8px"><ins class="adsbygoogle" style="display:block;min-height:90px" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
 
 <div id="app" style="max-width:640px;margin:8px auto;padding:0 8px 32px">
   <h1 style="font-size:24px;font-weight:800;margin:0 0 4px">📐 Square Footage Calculator</h1>
-  <p style="color:#64748b;font-size:14px;margin:0 0 20px">Add rooms or areas, enter their dimensions, and get the total square footage instantly.</p>
+  <p style="color:#94a3b8;font-size:14px;margin:0 0 20px">Add rooms or areas, enter their dimensions, and get the total square footage instantly.</p>
   <div id="rooms"></div>
-  <button onclick="addRoom()" style="width:100%;background:#ffffff;border:1px dashed #e2e8f0;color:#a5b4fc;padding:12px;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;margin-bottom:14px">+ Add Room / Area</button>
+  <button onclick="addRoom()" style="width:100%;background:#1e293b;border:1px dashed #334155;color:#a5b4fc;padding:12px;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;margin-bottom:14px">+ Add Room / Area</button>
   <div id="total-box" style="background:#4f46e520;border:1px solid #4f46e540;border-radius:10px;padding:20px;text-align:center;display:none">
     <div style="font-size:12px;color:#a5b4fc;margin-bottom:6px">TOTAL AREA</div>
     <div id="r-total" style="font-size:36px;font-weight:900;color:#c4b5fd"></div>
@@ -62,15 +62,15 @@ function removeRoom(id){rooms=rooms.filter(r=>r.id!==id);render();}
 function render(){
   const el=document.getElementById('rooms');
   el.innerHTML=rooms.map(r=>
-    '<div style="background:#ffffff;border-radius:10px;padding:16px;border:1px solid #e2e8f0;margin-bottom:10px">'+
+    '<div style="background:#1e293b;border-radius:10px;padding:16px;border:1px solid #334155;margin-bottom:10px">'+
     '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">'+
-    '<input type="text" value="'+r.name+'" oninput="rooms.find(x=>x.id=='+r.id+').name=this.value" style="background:transparent;border:none;color:#0f172a;font-size:14px;font-weight:700;outline:none;flex:1">'+
+    '<input type="text" value="'+r.name+'" oninput="rooms.find(x=>x.id=='+r.id+').name=this.value" style="background:transparent;border:none;color:#f1f5f9;font-size:14px;font-weight:700;outline:none;flex:1">'+
     '<button onclick="removeRoom('+r.id+')" style="background:none;border:none;color:#64748b;cursor:pointer;font-size:18px;padding:0 0 0 10px">×</button>'+
     '</div>'+
     '<div style="display:flex;gap:10px;align-items:center">'+
-    '<div style="flex:1"><label style="font-size:11px;color:#64748b">Length (ft)</label><input type="number" placeholder="12" value="'+r.l+'" min="0" step="0.1" oninput="rooms.find(x=>x.id=='+r.id+').l=this.value;calc()" style="width:100%;box-sizing:border-box;background:#f8f7f4;border:1px solid #e2e8f0;border-radius:6px;padding:8px 10px;color:#0f172a;font-size:14px;margin-top:4px;outline:none"></div>'+
+    '<div style="flex:1"><label style="font-size:11px;color:#64748b">Length (ft)</label><input type="number" placeholder="12" value="'+r.l+'" min="0" step="0.1" oninput="rooms.find(x=>x.id=='+r.id+').l=this.value;calc()" style="width:100%;box-sizing:border-box;background:#0f172a;border:1px solid #334155;border-radius:6px;padding:8px 10px;color:#f1f5f9;font-size:14px;margin-top:4px;outline:none"></div>'+
     '<span style="color:#475569;font-size:18px;margin-top:16px">×</span>'+
-    '<div style="flex:1"><label style="font-size:11px;color:#64748b">Width (ft)</label><input type="number" placeholder="10" value="'+r.w+'" min="0" step="0.1" oninput="rooms.find(x=>x.id=='+r.id+').w=this.value;calc()" style="width:100%;box-sizing:border-box;background:#f8f7f4;border:1px solid #e2e8f0;border-radius:6px;padding:8px 10px;color:#0f172a;font-size:14px;margin-top:4px;outline:none"></div>'+
+    '<div style="flex:1"><label style="font-size:11px;color:#64748b">Width (ft)</label><input type="number" placeholder="10" value="'+r.w+'" min="0" step="0.1" oninput="rooms.find(x=>x.id=='+r.id+').w=this.value;calc()" style="width:100%;box-sizing:border-box;background:#0f172a;border:1px solid #334155;border-radius:6px;padding:8px 10px;color:#f1f5f9;font-size:14px;margin-top:4px;outline:none"></div>'+
     '<div style="flex:1;text-align:center;padding-top:14px"><div style="font-size:11px;color:#64748b">Area</div><div id="area-'+r.id+'" style="font-size:15px;font-weight:700;color:#4ade80">—</div><div style="font-size:10px;color:#475569">sq ft</div></div>'+
     '</div></div>'
   ).join('');
@@ -95,41 +95,41 @@ addRoom();addRoom();
 
 
 <!-- embed-widget -->
-<div style="max-width:640px;margin:0 auto 32px;background:#ffffff;border:1px solid #e2e8f0;border-radius:12px;padding:18px">
-  <h2 style="font-size:15px;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.05em;margin-bottom:12px">Embed This Tool</h2>
+<div style="max-width:640px;margin:0 auto 32px;background:#1e293b;border:1px solid #334155;border-radius:12px;padding:18px">
+  <h2 style="font-size:15px;font-weight:700;color:#94a3b8;text-transform:uppercase;letter-spacing:.05em;margin-bottom:12px">Embed This Tool</h2>
   <p style="font-size:13px;color:#64748b;margin-bottom:12px">Add this Square Footage Calculator to your website or blog for free — just paste this code:</p>
-  <div style="background:#f8f7f4;border:1px solid #e2e8f0;border-radius:8px;padding:12px;font-family:'Inter',monospace;font-size:12px;color:#7dd3fc;word-break:break-all;margin-bottom:10px" id="embed-code">&lt;iframe src=&quot;https://square-footage-calculator.tabutility.com/&quot; width=&quot;100%&quot; height=&quot;600&quot; frameborder=&quot;0&quot; style=&quot;border-radius:12px&quot; title=&quot;Square Footage Calculator by Tabutility&quot;&gt;&lt;/iframe&gt;
+  <div style="background:#0f172a;border:1px solid #334155;border-radius:8px;padding:12px;font-family:monospace;font-size:12px;color:#818cf8;word-break:break-all;margin-bottom:10px" id="embed-code">&lt;iframe src=&quot;https://square-footage-calculator.tabutility.com/&quot; width=&quot;100%&quot; height=&quot;600&quot; frameborder=&quot;0&quot; style=&quot;border-radius:12px&quot; title=&quot;Square Footage Calculator by Tabutility&quot;&gt;&lt;/iframe&gt;
 &lt;p style=&quot;font-size:12px&quot;&gt;&lt;a href=&quot;https://square-footage-calculator.tabutility.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Square Footage Calculator&lt;/a&gt; by &lt;a href=&quot;https://tabutility.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Tabutility&lt;/a&gt;&lt;/p&gt;</div>
-  <button onclick="navigator.clipboard.writeText(document.getElementById('embed-code').textContent).then(()=>{this.textContent='Copied!';setTimeout(()=>this.textContent='Copy Embed Code',2000)})" style="background:#0f172a;color:#f8f7f4;border:none;border-radius:8px;padding:9px 18px;font-size:13px;font-weight:700;cursor:pointer">Copy Embed Code</button>
+  <button onclick="navigator.clipboard.writeText(document.getElementById('embed-code').textContent).then(()=>{this.textContent='Copied!';setTimeout(()=>this.textContent='Copy Embed Code',2000)})" style="background:#4f46e5;color:#0f172a;border:none;border-radius:8px;padding:9px 18px;font-size:13px;font-weight:700;cursor:pointer">Copy Embed Code</button>
   <span style="font-size:11px;color:#475569;margin-left:12px">Free to use — the credit link helps others find the tool</span>
 </div>
-<div style="margin:0 auto 24px;max-width:640px;background:#ffffff;border-radius:10px;padding:14px 18px;display:flex;align-items:center;gap:14px;cursor:pointer;border:1px solid #e2e8f0" onclick="window.open('https://www.amazon.com/s?k=home+improvement+books&tag=tabutility-20','_blank','noopener noreferrer')" title="Working on your home?">
+<div style="margin:0 auto 24px;max-width:640px;background:#1e293b;border-radius:10px;padding:14px 18px;display:flex;align-items:center;gap:14px;cursor:pointer;border:1px solid #334155" onclick="window.open('https://www.amazon.com/s?k=home+improvement+books&tag=tabutility-20','_blank','noopener noreferrer')" title="Working on your home?">
   <span style="font-size:28px;flex-shrink:0">📚</span>
   <div style="min-width:0">
-    <div style="font-size:13px;font-weight:700;color:#0f172a;margin-bottom:3px">Working on your home?</div>
-    <div style="font-size:12px;color:#64748b">Browse home improvement books <span style="color:#f59e0b;white-space:nowrap">→ Browse on Amazon</span></div>
+    <div style="font-size:13px;font-weight:700;color:#f1f5f9;margin-bottom:3px">Working on your home?</div>
+    <div style="font-size:12px;color:#94a3b8">Browse home improvement books <span style="color:#f59e0b;white-space:nowrap">→ Browse on Amazon</span></div>
     <div style="font-size:10px;color:#475569;margin-top:3px">As an Amazon Associate we earn from qualifying purchases.</div>
   </div>
 </div>
-<h2 style="font-size:15px;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.05em;margin-bottom:14px;max-width:640px;margin-left:auto;margin-right:auto">Related Tools</h2>
+<h2 style="font-size:15px;font-weight:700;color:#94a3b8;text-transform:uppercase;letter-spacing:.05em;margin-bottom:14px;max-width:640px;margin-left:auto;margin-right:auto">Related Tools</h2>
 <div style="max-width:640px;margin:0 auto 32px;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px">
-      <a href="https://unit-converter.tabutility.com/" style="display:block;background:rgba(255,255,255,0.07);border:1px solid #e2e8f0;border-radius:10px;padding:12px 16px;text-decoration:none;color:inherit">
-        <div style="font-size:13px;font-weight:600;color:#0f172a">Unit Converter</div><div style="font-size:11px;color:#64748b;margin-top:2px">Converters</div></a>
-      <a href="https://loan-calculator.tabutility.com/" style="display:block;background:rgba(255,255,255,0.07);border:1px solid #e2e8f0;border-radius:10px;padding:12px 16px;text-decoration:none;color:inherit">
-        <div style="font-size:13px;font-weight:600;color:#0f172a">Loan Calculator Hub</div><div style="font-size:11px;color:#64748b;margin-top:2px">Calculators</div></a>
-      <a href="https://mortgage-calculator.tabutility.com/" style="display:block;background:rgba(255,255,255,0.07);border:1px solid #e2e8f0;border-radius:10px;padding:12px 16px;text-decoration:none;color:inherit">
-        <div style="font-size:13px;font-weight:600;color:#0f172a">Mortgage Affordability</div><div style="font-size:11px;color:#64748b;margin-top:2px">Calculators</div></a>
-      <a href="https://rent-vs-buy.tabutility.com/" style="display:block;background:rgba(255,255,255,0.07);border:1px solid #e2e8f0;border-radius:10px;padding:12px 16px;text-decoration:none;color:inherit">
-        <div style="font-size:13px;font-weight:600;color:#0f172a">Rent vs Buy Calculator</div><div style="font-size:11px;color:#64748b;margin-top:2px">Calculators</div></a>
+      <a href="https://unit-converter.tabutility.com/" style="display:block;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:12px 16px;text-decoration:none;color:inherit">
+        <div style="font-size:13px;font-weight:600;color:#f1f5f9">Unit Converter</div><div style="font-size:11px;color:#94a3b8;margin-top:2px">Converters</div></a>
+      <a href="https://loan-calculator.tabutility.com/" style="display:block;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:12px 16px;text-decoration:none;color:inherit">
+        <div style="font-size:13px;font-weight:600;color:#f1f5f9">Loan Calculator Hub</div><div style="font-size:11px;color:#94a3b8;margin-top:2px">Calculators</div></a>
+      <a href="https://mortgage-calculator.tabutility.com/" style="display:block;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:12px 16px;text-decoration:none;color:inherit">
+        <div style="font-size:13px;font-weight:600;color:#f1f5f9">Mortgage Affordability</div><div style="font-size:11px;color:#94a3b8;margin-top:2px">Calculators</div></a>
+      <a href="https://rent-vs-buy.tabutility.com/" style="display:block;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:12px 16px;text-decoration:none;color:inherit">
+        <div style="font-size:13px;font-weight:600;color:#f1f5f9">Rent vs Buy Calculator</div><div style="font-size:11px;color:#94a3b8;margin-top:2px">Calculators</div></a>
     </div>
 <section id="seo-content">
   <style>
-    #seo-content{max-width:760px;margin:2.5rem auto;padding:0 1.25rem 3rem;font-family:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;color:#334155;line-height:1.7}
+    #seo-content{max-width:760px;margin:2.5rem auto;padding:0 1.25rem 3rem;font-family:'Segoe UI',system-ui,Arial,sans-serif;color:#334155;line-height:1.7}
     #seo-content h2{font-size:1.35rem;color:#0f172a;margin:2rem 0 .75rem}
     #seo-content h3{font-size:1.05rem;color:#0f172a;margin:1.25rem 0 .5rem}
     #seo-content p,#seo-content li{font-size:.95rem}
     #seo-content .example{background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:1rem 1.25rem;margin:1rem 0}
-    
+    @media (prefers-color-scheme:dark){#seo-content{color:#cbd5e1}#seo-content h2,#seo-content h3{color:#f1f5f9}#seo-content .example{background:#1e293b;border-color:#334155}}
   </style>
   <p>This free square footage calculator turns room dimensions into total area in seconds, so homeowners, renters, contractors and DIYers can plan flooring, paint, tiling or landscaping without doing the maths by hand. Enter a length and width and it returns the finished square footage, ready to compare against material coverage or a real-estate listing.</p>
   <h2>How the Square Footage Calculator Works</h2>
@@ -147,11 +147,11 @@ addRoom();addRoom();
     <h3>How do I measure an irregularly shaped room?</h3>
     <p>Break the space into simple rectangles, calculate the area of each one separately, then add the results together. This works for L-shaped and multi-section rooms.</p>
 </section>
-<footer style="border-top:1px solid #e2e8f0;background:#ffffff;margin-top:48px;padding:28px 24px;text-align:center;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:13px;color:#64748b;line-height:1.8">
-<div style="font-weight:700;color:#0f172a;font-size:15px">⚡ Tabutility</div>
+<footer style="background:#1a1a2e;margin-top:48px;padding:28px 24px;text-align:center;font-family:'Segoe UI',system-ui,Arial,sans-serif;font-size:13px;color:#94a3b8;line-height:1.8">
+<div style="font-weight:700;color:#fff;font-size:15px">⚡ Tabutility</div>
 <div>Free, private, browser-based tools. No sign-up, no tracking.</div>
-<div><a href="https://tabutility.com" style="color:#0f172a;font-weight:600;text-decoration:none">All Tools</a> · <a href="https://tabutility.com/blog/" style="color:#64748b;text-decoration:none">Blog</a> · <a href="https://tabutility.com/#about" style="color:#64748b;text-decoration:none">About</a></div>
-<div style="margin-top:6px;color:#94a3b8">© 2026 Tabutility</div>
+<div><a href="https://tabutility.com" style="color:#818cf8;font-weight:600;text-decoration:none">All Tools</a> · <a href="https://tabutility.com/blog/" style="color:#94a3b8;text-decoration:none">Blog</a> · <a href="https://tabutility.com/#about" style="color:#94a3b8;text-decoration:none">About</a></div>
+<div style="margin-top:6px;color:#64748b">© 2026 Tabutility</div>
 </footer>
 </body>
 <!-- built: 1785358911880 -->
